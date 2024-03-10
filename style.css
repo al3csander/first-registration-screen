@@ -1,82 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter";
 }
 
 body{
-    position: fixed;
-    background: #8C0000;
     
-
-
+    background: #2de9dd;
 }
 
-.bloco-01{
+
+.caixa-01{
     
-    /*background: red;*/
-    height: 100px;
-    width: 395px;
+   
+    height: 25vh;
+    width: 100%;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
 }
 
-.bloco-02{
+.caixa-02{
     
-    /*background: blue;*/
-    height: 400px;
-    width: 395px;
+ 
+    height:45vh ;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-03{
+    
+  
+    height:30vh;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-principal{
+    
+    color: #138c85;
+    font-size: 50px;
+}
+
+.caixa-dos-input{
+    
+    background: #18ada4;
+    height: 41vh;
+    width: 95%;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    flex-direction: column;
 }
 
-.bloco-03{
+.input-do-usuario{
     
-    /*background: deeppink;*/
-    height: 215px;
-    width: 395px;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-   
+    background: transparent;
+    height: 55px;
+    width: 86%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: solid 4px #00ffef;
+    text-align: center;
+    color: white;
     
     
 }
-
-.input-01{
-    
-   background: ;
-    height: 30px;
-    width: 290px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    
-    
-   
-    
+.input-do-usuario::placeholder{
+    font-weight: 700;
+    font-size: 20px;
+    color: #00ffef;
 }
 
-.bloco-filha{
+.input-do-usuario:focus{
     
-    /*background: white;*/
-    height: 40px;
-    width: 105px;
-    color: #200F0F;
-    border-radius: 10px;
+    outline: none;
+}
+
+
+.botao-01{
+    
+    height: 55px;
+    width: 80%;
+    border-radius: 20px;
+    background: #00ffef;
+    color:#138c85 ;
     border: none;
-    font-size: 15px;
-    
-}
-
-.logar{
-    
-    color:#FFFFFF;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    font-size: 40px;
+    box-shadow: 0px 0px 10px #0000002f;
+    font-size: 20px;
+    font-weight: 700;
 }
